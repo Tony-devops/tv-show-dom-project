@@ -9,8 +9,27 @@
   </head>
 
   <body>
+  <header>
+    <h1> Tony Presents</h1>
+    <h2>TV Show DOM Project</h2>
+    
+  </header>
+
+<br><hr>
+    <div class ="form">
+    <select name = "episodes" id = "select-episode" class ="select-epi"></select>
+    <input id ="search" type = "text" class = "input" placeholder="Search Episodes...">
+    <p id = "display-episode-number" class = "display"></p>
+    </div>
+
+    
     <div id="root">
     </div>
+  
+
+  <footer>
+    <p class="footer-text"> Data is sourced from <a href="https://www.tvmaze.com/api" target="_blank">TV-Maze-API</a></p>
+  </footer>
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
